@@ -435,8 +435,8 @@ int id alertTitle 0x7f0c0030
 int id always 0x7f0c0016
 int id beginning 0x7f0c0013
 int id button 0x7f0c0058
-int id button2 0x7f0c0053
 int id buttonPanel 0x7f0c0036
+int id button_cadastrar 0x7f0c0053
 int id cancel_action 0x7f0c005b
 int id checkbox 0x7f0c0038
 int id chronometer 0x7f0c0061
@@ -451,9 +451,6 @@ int id disableHome 0x7f0c000c
 int id dropdown 0x7f0c001c
 int id editText 0x7f0c0056
 int id editText2 0x7f0c0057
-int id editText3 0x7f0c0050
-int id editText4 0x7f0c0051
-int id editText5 0x7f0c0052
 int id edit_query 0x7f0c0042
 int id end 0x7f0c0014
 int id end_padder 0x7f0c0066
@@ -510,6 +507,9 @@ int id text2 0x7f0c0062
 int id textSpacerNoButtons 0x7f0c0033
 int id textView 0x7f0c0059
 int id textView2 0x7f0c0054
+int id text_email 0x7f0c0051
+int id text_senha 0x7f0c0052
+int id text_usuario 0x7f0c0050
 int id time 0x7f0c0060
 int id title 0x7f0c002c
 int id title_template 0x7f0c002f
