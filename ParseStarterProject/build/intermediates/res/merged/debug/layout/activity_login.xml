@@ -73,7 +73,8 @@
         android:text="@string/crie_conta"
         android:id="@+id/textView"
         android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="abrirCadastroUsuario" />
 
     </RelativeLayout>
 </RelativeLayout>

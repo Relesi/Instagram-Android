@@ -4,7 +4,7 @@
     api-level="22"
     density="hdpi"
     format="7"
-    timestamp="207263956848830"
+    timestamp="282616871124575"
     token="8485327522521084286" >
 
     <task
@@ -24,12 +24,12 @@
         location="C:\Users\Renato\AndroidStudioProjects\Instagram\ParseStarterProject\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="207078027444916" >
+    <build timestamp="282420297684186" >
         <artifact
             location="C:\Users\Renato\AndroidStudioProjects\Instagram\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="207263956848830" >
+    <build timestamp="282616871124575" >
         <artifact
             location="C:\Users\Renato\AndroidStudioProjects\Instagram\ParseStarterProject\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />

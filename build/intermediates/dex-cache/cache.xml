@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Renato\AndroidStudioProjects\Instagram\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="18c5b3261b2cac12f6d56168254d7971d4071690">
+        <dex dex="C:\Users\Renato\AndroidStudioProjects\Instagram\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9dd396d48de1cd4122cf985795a55da91d18c7d7\classes.dex" />
+    </item>
+
+</items>
