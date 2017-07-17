@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.parse.ParseUser;
 import com.parse.starter.R;
 
 public class LoginActivity extends AppCompatActivity {
@@ -13,9 +14,24 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        //Verificar se o usuário esta logado
+
+        verificarUsuarioLogado();git 
     }
     public void abrirCadastroUsuario(View view){
         Intent intent = new Intent(LoginActivity.this, CadastroActivity.class);
         startActivity( intent );
+    }
+    private void verificarUsuarioLogado(){
+        if(ParseUser.getCurrentUser() != null){
+            //Enviar usuário para tela principal do app
+            abrirAreaPrincipal();
+        }
+    }
+    private void abrirAreaPrincipal(){
+        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
