@@ -84,10 +84,9 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@android:color/white"
         android:text="@string/fazer_login"
-        android:id="@+id/textView2"
+        android:id="@+id/text_faca_login"
         android:layout_below="@+id/button_cadastrar"
         android:layout_alignLeft="@+id/imageView2"
-        android:layout_alignStart="@+id/imageView2"
-        android:onClick="abrirLoginUsuario" />
+        android:layout_alignStart="@+id/imageView2"  />
     </RelativeLayout>
 </RelativeLayout>
