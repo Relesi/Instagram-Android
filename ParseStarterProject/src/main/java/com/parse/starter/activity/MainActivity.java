@@ -11,8 +11,10 @@ package com.parse.starter.activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.parse.FindCallback;
@@ -30,7 +32,10 @@ import com.parse.starter.R;
 import java.util.List;
 
 
+
 public class MainActivity extends AppCompatActivity {
+
+    private Toolbar toolbarPrincipal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,60 +43,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        /**
-         * Cadastro de Usuários
-        **/
-       /* ParseUser usuario = new ParseUser();
-        usuario.setUsername("renatolessa");
-        usuario.setPassword("123456");
-        usuario.setEmail("renatolessa.2011@hotmail.com");
-
-        //Cadastrar
-
-        usuario.signUpInBackground(new SignUpCallback() {
-            @Override
-            public void done(ParseException e) {
-                if(e == null){//Deu certo
-                    Log.i("cadastrousuario", "Sucesso ao cadastrar usuáio ");
-                }else {//Erro
-                    Log.i("cadastrousuario", "Erro ao cadastrar usuáio -  " + e.getMessage());
-                }
-            }
-        });*/
-
-        /***
-         * Verificar usuário logado
-         */
-
-        //Deslogado
-
-        /*ParseUser.logOut();
-
-        //Verificar Logado
-
-        if(ParseUser.getCurrentUser() != null){//Logado
-            Log.i("LoginUsuario", "Usuário está logado");
-        }else{//Não logado
-            Log.i("LoginUsuario", "Usuário não está logado");
-        }*/
-
-        /**
-         * Fazer login de usuário
-         */
-        ParseUser.logInInBackground("renatolessa", "123456", new LogInCallback() {
-            @Override
-            public void done(ParseUser user, ParseException e) {
-
-                if(e == null){
-
-                    Log.i("VerificaLoginUsuario", "Login realizado com sucesso");
-                }else{
-
-                    Log.i("VerificaLoginUsuario", "Erro ao fazer login do usuário. " + e.getMessage());
-                }
-            }
-        });
-
+        toolbarPrincipal = (Toolbar) findViewById(R.id.toolbar_principal);
+        toolbarPrincipal.setLogo(R.drawable.instagramlogo);
+        setSupportActionBar(toolbarPrincipal);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+        return true;
+    }
 }
