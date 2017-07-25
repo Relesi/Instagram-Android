@@ -10,6 +10,7 @@ package com.parse.starter.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -59,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
 
         //configurar Adapter
         TabsAdapter tabsAdapter = new TabsAdapter(getSupportFragmentManager(), this);
+        slidingTabLayout.setCustomTabView(R.layout.tab_view, R.id.text_item_tab);
+        viewPager.setAdapter(tabsAdapter);
+        slidingTabLayout.setDistributeEvenly(true);
+        slidingTabLayout.setSelectedIndicatorColors(ContextCompat.getColor(this, R.color.cinzaEscuro));
+        slidingTabLayout.setViewPager(viewPager);
     }
 
     @Override
