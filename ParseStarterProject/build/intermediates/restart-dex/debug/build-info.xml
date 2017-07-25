@@ -4,30 +4,22 @@
     api-level="22"
     density="hdpi"
     format="7"
-    timestamp="996304321717933"
+    timestamp="999459297448772"
     token="8485327522521084286" >
 
     <task
         name="javac"
-        duration="638" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="122" />
+        duration="0" />
     <task
         name="verifier"
-        duration="29" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\Renato\AndroidStudioProjects\Instagram\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="996304321717933" >
-        <artifact
-            location="C:\Users\Renato\AndroidStudioProjects\Instagram\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
-            type="MAIN" />
-    </build>
+    <build timestamp="999459297448772" />
 
 </instant-run>
