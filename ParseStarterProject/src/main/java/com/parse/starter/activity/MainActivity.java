@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //Monta objeto para salvar no parse
                 ParseObject parseObject = new ParseObject("Imagem");
-                //parseObject.put("username", ParseUser.getCurrentUser().getUsername() );
+                parseObject.put("username", ParseUser.getCurrentUser().getUsername() );
                 parseObject.put("imagem", arquivoParse );
 
                 //salvar os dados
@@ -151,7 +151,6 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(), "Erro ao postar sua imagem - Tente novamente!",
                                     Toast.LENGTH_LONG ).show();
                         }
-
                     }
                 });
 
