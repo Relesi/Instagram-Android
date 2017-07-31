@@ -37,7 +37,7 @@ public class UsuariosAdapter extends ArrayAdapter<ParseUser>{
             //Inicializa o objeto para montagem do layout
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
 
-            //Monta a view a partir do xml
+            //Montar a view a partir do xml
 
             view = inflater.inflate(R.layout.lista_usuarios, parent, false);
 

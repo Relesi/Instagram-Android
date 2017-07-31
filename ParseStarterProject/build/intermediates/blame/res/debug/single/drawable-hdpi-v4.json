@@ -148,6 +148,10 @@
         "source": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_keyboard_arrow_left.png",
+        "source": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\drawable-hdpi\\ic_keyboard_arrow_left.png"
+    },
+    {
         "merged": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
