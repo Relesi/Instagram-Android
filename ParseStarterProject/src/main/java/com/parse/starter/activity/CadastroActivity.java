@@ -56,6 +56,7 @@ public class CadastroActivity extends AppCompatActivity {
         usuario.setUsername(textoUsuario.getText().toString());
         usuario.setEmail(textoEmail.getText().toString());
         usuario.setPassword(textoSenha.getText().toString());
+        //usuario.put("nome", "renato");
 
         //Salvar dados do usuario
 

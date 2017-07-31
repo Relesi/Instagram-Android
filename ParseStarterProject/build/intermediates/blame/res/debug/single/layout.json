@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+        "merged": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\lista_usuarios.xml",
+        "source": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\layout\\lista_usuarios.xml"
+    },
+    {
         "merged": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\Renato\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
